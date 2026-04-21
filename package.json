@@ -1,0 +1,40 @@
+{
+  "name": "mock-interview",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@alicloud/nls-filetrans-2018-08-17": "^1.0.0",
+    "@langchain/classic": "^1.0.22",
+    "@langchain/core": "^1.1.31",
+    "@langchain/deepseek": "^1.0.16",
+    "@supabase/supabase-js": "^2.99.1",
+    "ai": "^6.0.116",
+    "ali-nls": "^2.5.1",
+    "authing-js-sdk": "^4.23.55",
+    "langchain": "^1.2.30",
+    "mammoth": "^1.12.0",
+    "next": "16.1.6",
+    "pdfjs-dist": "^5.5.207",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "recharts": "^3.8.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
